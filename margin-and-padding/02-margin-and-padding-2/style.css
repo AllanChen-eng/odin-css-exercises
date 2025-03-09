@@ -28,7 +28,7 @@ body {
 
 .button-container {
   background: #e3f4ff;
-  margin: 8px;
+  /*margin: 8px; Not included in solution */
   padding: 8px;
   text-align: center;
 }
