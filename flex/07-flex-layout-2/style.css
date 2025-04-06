@@ -27,3 +27,57 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Things I changed (easier to compare with solution this way, despite being not as 
+optimal/best practice)*/
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+.center{
+  display:flex;
+  flex-grow: 1;
+}
+.deck{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 32px;
+
+}
+.card{
+  width:200px;
+  height: 200px;
+  padding: 48px;
+  margin: 8px;
+}
+.sidebar{
+  min-width: 300px;
+  padding: 16px;
+}
+ body{
+  display: flex;
+  flex-direction: column;
+ }
+ .footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50px;
+  margin-top: auto;
+ }
+ ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+ }
+ li{
+  padding: 8px;
+ }
+ a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+ }
